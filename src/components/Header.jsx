@@ -20,7 +20,7 @@ function Header(){
                 <div className="flex gap-3.75">
                     <div className="relative">
                         <input type="text" placeholder="Search products ..." className='max-w-50.5 w-full rounded-[100px] h-10.5 pl-5.75 pr-10 bg-ff-white'/>
-                        <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className="text-ff-24 !w-6 absolute right-3 top-1/2 -translate-y-1/2 text-ff-light-gray cursor-pointer"/>
+                        <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className="text-ff-24 !w-6 absolute right-3 top-1/2 -translate-y-1/2 text-ff-lightgray cursor-pointer"/>
                     </div>
                     <FontAwesomeIcon icon="fa-regular fa-circle-user" className="text-ff-36 !w-9 !h-9 cursor-pointer"/>
                     <div className="flex items-center gap-1.5 w-fit px-3 py-1.5 rounded-[50px] bg-ff-green cursor-pointer">
