@@ -2,14 +2,20 @@
 
 @theme{
   --color-ff-white:#ffffff;
+  --color-ff-smoke:#FAFCF4;
   --color-ff-green: #008000;
+  --color-ff-lightgreen:#EEF6E7;
   --color-ff-cream: #fefaee;
-  --color-ff-light-gray:#6a7282;
+  --color-ff-lightgray:#6a7282;
+  --color-ff-mustard:#fcc733;
+  --color-ff-dark:#353839;
+  --color-ff-black:#000000;
   --text-ff-18: 18px;
   --text-ff-24: 24px;
   --text-ff-28: 28px;
   --text-ff-32: 32px;
   --text-ff-36: 36px;
+  --text-ff-70: 70px;
 }
 
 .ff-home{
