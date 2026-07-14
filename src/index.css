@@ -10,7 +10,9 @@
   --color-ff-mustard:#fcc733;
   --color-ff-dark:#353839;
   --color-ff-black:#000000;
+  --color-ff-ligtlime:#FAFCF2;
   --text-ff-18: 18px;
+  --text-ff-20: 20px;
   --text-ff-24: 24px;
   --text-ff-28: 28px;
   --text-ff-32: 32px;
@@ -21,8 +23,6 @@
 .ff-home{
   background-image: url("./assets/banner/background.png");
   min-height: 1024px;
-  padding-left: 50px;
-  padding-right: 50px;
   background-repeat: no-repeat;
   background-position: center 30%;
 }
