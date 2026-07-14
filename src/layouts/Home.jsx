@@ -49,46 +49,50 @@ function Home(){
                         <p className="text-gray-500">No chemicals. No compromise</p>
                     </div>
                 </div>
-
             </div>
-            <div className="bg-ff-smoke w-339 h-32 rounded-[20px] mt-55 mx-10.5 flex gap-22.5">
-                <div className="flex max-w-63.5 w-full gap-2.25 ml-8.25 mt-10.25">
-                    <div>
-                        <img src="src/assets/objects/greenleaf.png" alt="leaf" className="w-10 h-10 rounded-full"></img>
+
+            <div className="flex gap-[28px] ml-[37px] mt-[37px]">
+                <div className="flex flex-col gap-[34px]">
+                    <div className="flex gap-2">
+                        <div>
+                            <img src="src/assets/objects/leaf.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="font-bold">100% Organic</p>
+                            <p>Certified & natural produce</p>
+                        </div>
                     </div>
-                    <div>
-                        <p className="font-bold">100% Organic</p>
-                        <p>Certified & natural produce</p>
+
+                    <div className="flex gap-2">
+                        <div>
+                            <img src="src/assets/objects/greenconfirm.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="font-bold">Sercure Payments</p>
+                            <p>Safe & encrypted checkout</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className="flex max-w-63.5 w-full gap-2.25 mt-10.25 ">
-                    <div>
-                        <img src="src/assets/objects/greenconfirm.png" alt="leaf" className="w-10 h-10 rounded-full"></img>
+                <div className="flex flex-col gap-[34px]">
+                    <div className="flex gap-2">
+                        <div>
+                            <img src="src/assets/objects/greenrecycle.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="font-bold">Sustainable Packaging</p>
+                            <p>Eco-friendly & recyclable</p>
+                        </div>
                     </div>
-                    <div>
-                        <p className="font-bold">Sercure Payments</p>
-                        <p>Safe & encrypted checkout</p>
-                    </div>
-                </div>
 
-                <div className="flex max-w-63.5 w-full gap-2.25 mt-10.25">
-                    <div>
-                        <img src="src/assets/objects/greenrecycle.png" alt="leaf" className="w-10 h-10 rounded-full"></img>
-                    </div>
-                    <div>
-                        <p className="font-bold">Sustainable Packaging</p>
-                        <p>Eco-friendly & recyclable</p>
-                    </div>
-                </div>
-
-                <div className="flex max-w-63.5 w-full gap-2.25 mt-10.25">
-                    <div>
-                        <img src="src/assets/objects/greensmile.png" alt="leaf" className="w-10 h-10 rounded-full"></img>
-                    </div>
-                    <div>
-                        <p className="font-bold">Happy Customers</p>
-                        <p>Trusted by thousand</p>
+                    <div className="flex gap-2">
+                        <div>
+                            <img src="src/assets/objects/greensmile.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="font-bold">Happy Customers</p>
+                            <p>Trusted by thousand</p>
+                        </div>
                     </div>
                 </div>
             </div>
