@@ -3,7 +3,7 @@ function Home(){
     return(
         <section className="ff-home">
             <div className="flex relative">
-                <div className="flex flex-col gap-13.75 pl-10.5">
+                <div className="flex flex-col gap-13.75 pl-12.5">
                     <div className="pt-16.25">
                         <div className="flex max-w-105 max-h-14.75 gap-1.5  bg-ff-lightgreen rounded-full">
                             <div className="pl-2.75 flex items-center">
@@ -26,24 +26,24 @@ function Home(){
                     </div>
                 </div>
             
-                <div className="absolute bottom-10 right-10 bg-ff-white/55 rounded-[10px] flex items-center gap-[10px] px-[13px] py-[8px] backdrop-blur-lg">
-                    <img src="src/assets/objects/star.png" alt="star" className="w-[45px] h-[45px]"></img>
+                <div className="absolute bottom-5 right-10 bg-ff-white/55 rounded-[10px] flex items-center gap-2.5 px-3.25 py-2 backdrop-blur-lg">
+                    <img src="src/assets/objects/star.png" alt="star" className="w-11.25 h-11.5"></img>
                     <div className="whitespace-nowrap">
                         <p className="text-ff-green font-bold">4.9/5</p>
                         <p>12k Reviews</p>
                     </div>
                 </div>
 
-                <div className="absolute top-full right-[35%] bg-ff-white/55 rounded-[10px] flex items-center gap-[10px] px-[13px] py-[8px] backdrop-blur-lg">
-                    <img src="src/assets/objects/truck.png" alt="delivery" className="w-[45px] h-[45px]"></img>
+                <div className="absolute top-full right-[35%] bg-ff-white/55 rounded-[10px] flex items-center gap-2.5 px-3.25 py-2 backdrop-blur-lg">
+                    <img src="src/assets/objects/truck.png" alt="delivery" className="w-11.25 h-11.5"></img>
                     <div className="whitespace-nowrap">
                         <p className="text-ff-green font-bold">Same Day Delivery</p>
                         <p>Freshness, delivered fast.</p>
                     </div>
                 </div>
 
-                <div className="absolute top-30  right-3 bg-ff-white/45 rounded-[10px] flex items-center gap-[10px] px-[13px] py-[8px] backdrop-blur-lg">
-                    <img src="src/assets/objects/greenconfirm.png" alt="natural" className="w-[45px] h-[45px]"></img>
+                <div className="absolute top-70 right-3 bg-ff-white/15 rounded-[10px] flex items-center gap-2.5 px-3.25 py-2 backdrop-blur-lg">
+                    <img src="src/assets/objects/greenconfirm.png" alt="natural" className="w-11.25 h-11.5"></img>
                     <div className="whitespace-nowrap">
                         <p className="font-bold">100% <span className="text-ff-green">Natural</span></p>
                         <p className="text-gray-500">No chemicals. No compromise</p>
@@ -51,8 +51,8 @@ function Home(){
                 </div>
             </div>
 
-            <div className="flex gap-[28px] ml-[37px] mt-[37px]">
-                <div className="flex flex-col gap-[34px]">
+            <div className="flex gap-7 ml-9.25 mt-9.25">
+                <div className="flex flex-col gap-8.5">
                     <div className="flex gap-2">
                         <div>
                             <img src="src/assets/objects/leaf.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
@@ -74,7 +74,7 @@ function Home(){
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-[34px]">
+                <div className="flex flex-col gap-8.5">
                     <div className="flex gap-2">
                         <div>
                             <img src="src/assets/objects/greenrecycle.png" alt="leaf" className="w-12.75 h-12.75 rounded-full"></img>
